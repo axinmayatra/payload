@@ -3,7 +3,7 @@ clear
 red=$(tput setaf 7)
 rst=$(tput sgr0)
 echo -e "${red}###### Payload Generator for reverse tcp meterpeter"
-echo -e "###### Version 0.2"
+echo -e "###### Version 0.3"
 echo -e "###### Ymachine ${rst}"
 echo -e "Select platform \n1)Android \n2)windows" 
 read p
@@ -31,6 +31,6 @@ case $p in
 esac
 clear
 echo -e "${red}###### Payload Generator for reverse tcp meterpeter"
-echo -e "###### Version 0.2"
+echo -e "###### Version 0.3"
 echo -e "###### Ymachine ${rst}"
 echo -e "Your payload is generated \n happy haunting"
